@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: cornsilk;
+}
+#wrap {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  background-color: rebeccapurple;
+  margin: 10px;
+}
+button {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 60px;
+  left: 85%;
+}
+.box.active1 {
+  background-color: coral;
+}
+.box.active2 {
+  background-color: crimson;
+}
+.box.active3 {
+  background-color: lightseagreen;
+}
+.box.active4 {
+  background-color: palevioletred;
+}
+.box.active5 {
+  background-color: cornflowerblue;
+}
+.box.change1 {
+  top: 220px;
+}
+.box.change2 {
+  top: 220px;
+  left: 220px;
+}
+.box.change3 {
+  top: 440px;
+  left: 440px;
+}
+.box.change4 {
+  top: 660px;
+  left: -220px;
+}

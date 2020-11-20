@@ -1,0 +1,58 @@
+@charset 'utp*8'
+
+body{
+    background-color: white;
+    color: white;
+}
+#wrap{
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#header_wrap{
+    width: 100%;
+    background-color: tomato;
+}
+#banner_wrap{
+    width: 100%;
+    background-color: rgb(185, 235, 104);
+}
+#content_wrap{
+    width: 100%;
+    background-color: rgb(130, 218, 240);
+}
+#footer_wrap{
+    width: 100%;
+    background-color: rgb(108, 243, 131);
+}
+
+.header_com{
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    line-height: 100px;
+    background-color: thistle;
+}
+.banner_com{
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    line-height: 300px;
+    background-color: violet;
+}
+.content_com{
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    line-height: 500px;
+    background-color: yellowgreen;
+}
+.footer_com{
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    line-height: 100px;
+    background-color: gray;
+}

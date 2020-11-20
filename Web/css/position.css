@@ -1,0 +1,18 @@
+div{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: rgb(105, 255, 125);
+}
+.container{
+    background-color: rgb(221, 221, 165);
+    left: 20px;
+    top : 20px;
+    position: relative;
+}
+.box{
+    background-color: hotpink;
+    left: 20px;
+    top:  20px;
+    position: absolute;
+}

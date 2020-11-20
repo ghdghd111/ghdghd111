@@ -1,0 +1,244 @@
+@charset 'utp-8'
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#wrap{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+#main{
+    overflow: hidden;
+    background-image: url('https://t1.kakaocdn.net/thumb/C3840x2304/?fname=https%3A%2F%2Ft1.kakaocdn.net%2Fkakaoi_brand%2Fresource%2F1600648356000.jpg');
+    background-size: cover;
+}
+#header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+#header:hover{
+    background-color: white;
+    transition-property:background-color;
+    transition-duration:0.5s;
+    box-shadow: 1px 1px gray;
+
+}
+#header:hover>.header_logo{
+    color: black;
+}
+#header:hover>.header_nav a{
+    color:rgb(190,190,190);
+}
+#header:hover>.header_nav a:hover{
+    color: black;
+}
+#header:hover>.header_icon a{
+    color:rgb(190,190,190);
+}
+#header:hover>.header_icon a:hover{
+    color: black;
+}
+.header_logo{
+    font-family: 'Nanum Gothic', sans-serif;
+    display: flex;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.header_nav{
+    margin-left: -1300px;
+}
+.header_nav .nav_frist .frsit{
+    float: left;
+    font-size: 13px;
+    padding: 0 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 800;
+    position: relative;
+    top: -5px;
+    line-height: 60px;
+}
+.header_icon{
+    font-family: 'Nanum Gothic', sans-serif;
+    display: flex;
+    font-size: 13px;
+    padding: 10px 40px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 800;
+}
+.header_icon li{
+    float: left;
+}
+#content{
+    width: 100%;
+    height: 1000px;
+    margin: 0 auto;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding-left: 50px;
+    position: relative;
+}
+#content .info{
+    position: relative;
+    top: 30%;
+}
+#content .text{
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 15px;
+
+}
+#content .link{
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+#content .link i{
+    color: black;
+    font-size: 16px;
+    padding-left: 15px;
+}
+#content .text p:hover>a{
+    color:black;
+}
+#content .link:hover>a i{
+    padding-left: 30px;
+    transition-property:padding-left;
+    transition-duration:1s;
+}
+#content2{
+    width: 100%;
+    height: 100%;
+    margin: 30px auto;
+}
+#content2 .link ul{
+    display: flex;
+}
+#content2 .link ul{
+    padding: 0;
+}
+#content2 .link ul .ai {
+    width: 906px;
+    height: 906px;
+    margin: 0 auto;
+    background-image: url('https://t1.kakaocdn.net/thumb/C1830x1830/?fname=https%3A%2F%2Ft1.kakaocdn.net%2Fkakaoi_brand%2Fresource%2F1599636672366.jpg');
+    background-repeat: no-repeat;
+    background-size: 906px 906px;
+    overflow: hidden;
+}
+#content2 .link ul .ai .link_text:hover>.more{
+    color: black;
+    border-bottom: 1px solid black;
+    transition-property: color;
+    transition-duration: 1s;
+}
+#content2 .link ul .hey .link_text:hover>.more{
+    color: black;
+    border-bottom: 1px solid black;
+    transition-property: color;
+    transition-duration: 1s;
+}
+#content2 .link ul .hey{
+    width: 906px;
+    height: 906px;
+    margin: 0 auto;
+    background-image: url('https://t1.kakaocdn.net/thumb/C1830x1830/?fname=https%3A%2F%2Ft1.kakaocdn.net%2Fkakaoi_brand%2Fresource%2F1599636652548.jpg');
+    background-repeat: no-repeat;
+    background-size: 906px 906px;
+    overflow: hidden;
+}
+#content2 .link ul li .link_text{
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 10px;
+}
+.link_text .title{
+    color: rgb(255,225,0);
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.link_text .more{
+    color:rgb(190,190,190);
+    font-size: 20px;
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(190,190,190);
+    padding-bottom: 3px;
+    width: 100%;
+}
+#content3{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+#content3 .video{
+    background-image: url('https://pro2-bar-s3-cdn-cf2.myportfolio.com/7bec249b1e187e4f241a011b9837f671/d8c28b1b-986c-4738-b6cd-7f95d0a0ab19.png');
+    width: 1857px;
+    height: 1000px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+    opacity: 0.9;
+}
+#content3 .video .play_btn{
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+    top: 90%;
+    left: 5%;
+}
+#content3  .video .play_btn i{
+    color: rgb(255,225,0);
+    padding-left: 30px;
+    font-size: 20px;
+}
+#content3 .video .play_btn:hover>i{
+    font-size: 40px;
+    transition-property: font-size;
+    transition-duration: 1s;
+}
+#content3 .video .wide_btn{
+    color: rgb(255,225,0);
+    position: relative;
+    top: 90%;
+    left: 80%;
+    font-size: 30px;
+}
+.wide_btn:hover{
+    font-size:40px;
+    transition-property: font-size;
+    transition-duration: 1s;
+}
+.wide_btn:active{
+    opacity: 0.5;
+}

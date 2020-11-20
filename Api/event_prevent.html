@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 250px;
+            height: 250px;
+            margin-bottom: 5px;
+            background-color: crimson;
+        }
+    </style>
+</head>
+<body>
+    <div><input type="checkbox"></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <script>
+        document.addEventListener('wheel', function(){
+            console.log('스크롤');
+            event.preventDefault(); // 자체만으로 막지를 못
+        },{passive: false}) // passive를 없앰
+         // 한번만 오류 메세지 {once:true}
+
+        const input = document.querySelector('input');
+        console.log(input);
+        input.addEventListener('click', function(event){
+            console.log(event);
+            event.preventDefault(); // 해당 event를 막음
+        })
+    </script>
+</body>
+</html>

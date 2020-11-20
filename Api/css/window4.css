@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  text-align: center;
+}
+div {
+  width: 180px;
+  height: 180px;
+  background-color: sandybrown;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+.container_1,
+.container_2,
+.container_3,
+.container_4,
+.container_5 {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.nav {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  text-align: center;
+}
+.nav2 {
+  position: fixed;
+  top: 50px;
+  right: 20px;
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  text-align: center;
+}
+coral
+cornflowerblue
+crimson
+lightseagreen
+palevioletred

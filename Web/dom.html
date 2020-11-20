@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/dom.css">
+    <link rel="stylesheet" href="js/dom.js">
+</head>
+<body>
+    <h3>DOM 객체 P의 프로퍼티, 스타일, 이벤트리스너</h3>
+    <hr>
+    <p id ="first_p" onclick="this.style.color = 'white'">
+        이것은
+        <span>문장입니다.</span>
+    </p>
+    <script>
+        var p = document.getElementById("first_p");
+        var text = "p.id = " + p.id + "\n";
+        text += "p.tagName = " + p.tagName + "\n";
+        text += "p.innerHTML = " + p.innerHTML + "\n";
+        text += "p.style.color = " + p.style.color + "\n";
+        text += "p.onclick = " + p.onclick + "\n";
+        text += "p.childElementCount = " + p.childElementCount + "\n";
+        text += "너비 =" + p.offsetWidth + "\n";
+        text += "높이 =" + p.offsetHeight + "\n";
+
+        alert(text);
+    </script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+body{
+    background-color: beige;
+}
+
+div{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+}
+
+.container{
+    left: 100px;
+    top: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: row; /*기본값 row(column) reverse 가능 */
+}

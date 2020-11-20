@@ -1,0 +1,14 @@
+.div_f {
+  color: blue;
+}
+.span_s {
+  color: green;
+}
+.button {
+}
+.div_f.active {
+  color: red;
+}
+.span_s.active {
+  color: red;
+}

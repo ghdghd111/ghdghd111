@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .outter{
+            width: 500px;
+            height: 500px;
+            background-color: aquamarine;
+            margin: 0 auto;
+        }
+        
+        .middle{
+            width: 50%;
+            height: 50%;
+            background-color: chocolate;
+            transform: translateY(50%);
+            margin: 0 auto;
+            display: flex;
+        }
+        .button{
+            width: 50%;
+            height: 50%;
+            background-color: cornflowerblue;
+            margin: 0 auto;
+            transform: translateY(50%);
+        }
+        .button2{
+            width: 50%;
+            height: 50%;
+            background-color: crimson;
+            margin: 0 auto;
+            transform: translateY(50%);
+        }        
+    </style>
+</head>
+<body>
+    <div class="outter">
+        <div class="middle">
+            <button class="button">1</button>
+            <button class="button2">2</button>
+        </div>
+    </div>
+    <script>
+        const outter = document.querySelector('.outter');
+        const middle = document.querySelector('.middle');
+        const button = document.querySelector('.button');
+        const button2 = document.querySelector('.button2');
+
+        outter.addEventListener('click', function(){
+            if(event.target !== event.currentTarget){
+                return;
+            }
+            console.log('난 아웃사이더');
+            console.log(`outter: ${event.currentTarget}, ${event.target}`)
+        })
+
+        middle.addEventListener('click', function(){
+            if(event.target !== event.currentTarget){
+                return;
+            }         
+            console.log('난 미들');
+            console.log(`outter: ${event.currentTarget}, ${event.target}`) 
+            
+            //event.currentTarget : 내가 클릭하는 타겟
+            //event.target : 실제 타겟
+        })
+
+        button.addEventListener('click', function(){
+            console.log('난 버튼');
+            console.log(`outter: ${event.currentTarget}, ${event.target}`)
+        })
+        button2.addEventListener('click', function(){
+            console.log('난 버튼2');
+            console.log(`outter: ${event.currentTarget}, ${event.target}`)
+            // event.stopImmediatePropagation();
+            // event.stopPropagation();    // 상위로 전파 되는 것을 막음 같은 급이나 아래로는 전파됨  
+        })        
+    </script>
+</body>
+</html>

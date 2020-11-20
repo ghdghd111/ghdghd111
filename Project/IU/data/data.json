@@ -1,0 +1,45 @@
+{
+    "items": [
+      {
+        "type": "SINGLE",
+        "alt" : "I-LAND",
+        "src": "img/box1.jpg"
+      },
+      {
+        "type": "SINGLE",
+        "alt" : "EIGHT",
+        "src": "img/box2.jpg"
+      },
+      {
+        "type": "EP",
+        "alt" : "CHAT-SHIRE",
+        "src": "img/box3.jpg"
+      },
+      {
+        "type": "EP",
+        "alt" : "Flowers",
+        "src": "img/box4.jpg"
+      },   
+      {
+        "type": "EP",
+        "alt" : "Flowers2",
+        "src": "img/box5.jpg"
+      },      
+      {
+        "type": "SINGLE",
+        "alt" : "BBiBBi",
+        "src": "img/box6.jpg"
+      }, 
+      {
+        "type": "STUODIO",
+        "alt" : "ModernTimes",
+        "src": "img/box7.jpg"
+      }, 
+      {
+        "type": "STUODIO",
+        "alt" : "Pallte",
+        "src": "img/box8.jpg"
+      }
+    ]
+  }
+  

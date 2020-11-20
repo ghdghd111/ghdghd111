@@ -1,0 +1,40 @@
+.first{
+    width: 100px;
+    height: 100px;
+    background-color: lightpink;
+}
+.inline_box{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: indigo;
+    position: relative;
+    left: 100px;
+}
+.inline_box2{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: lightskyblue;
+    position: relative;
+    vertical-align: top; 
+    left: 100px;
+}
+.inline_box3{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: lightskyblue;
+    position: relative;
+    left: 208px;
+    vertical-align: top; 
+    margin-bottom: 4px; 
+}
+.block{
+    width: 100px;
+    height: 100px;
+    background-color: lightsalmon;
+    margin-bottom: 4px;
+    position: relative;
+    left: 100px;
+}
